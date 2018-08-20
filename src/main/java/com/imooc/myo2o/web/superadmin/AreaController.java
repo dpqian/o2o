@@ -31,4 +31,5 @@ public class AreaController {
 		List<Area> list = areaService.getAreaList();
 		return list;
 	}
+	//测试不同包下新增文件，另一人修改时有没有冲突
 }
