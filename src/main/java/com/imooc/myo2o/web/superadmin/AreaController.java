@@ -31,4 +31,5 @@ public class AreaController {
 		List<Area> list = areaService.getAreaList();
 		return list;
 	}
+
 }
