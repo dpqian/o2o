@@ -26,6 +26,7 @@ public class AreaController {
 	
 	@RequestMapping("/area")
 	@ResponseBody
+	//2
 	public List<Area> getAreaList3(){
 		List<Area> list = areaService.getAreaList();
 		return list;
