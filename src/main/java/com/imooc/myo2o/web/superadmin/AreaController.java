@@ -23,4 +23,11 @@ public class AreaController {
 		List<Area> list = areaService.getAreaList();
 		return list;
 	}
+	
+	@RequestMapping("/area")
+	@ResponseBody
+	public List<Area> getAreaList2(){
+		List<Area> list = areaService.getAreaList();
+		return list;
+	}
 }
